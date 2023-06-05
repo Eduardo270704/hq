@@ -1,0 +1,237 @@
+/* Geral */
+body{
+  background-color: #000000;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Barra de navegação */
+header{
+  box-shadow: 0px 1px white;
+}
+
+nav{
+  display: inline-block;
+  width: 100%;
+}
+#cara{
+  display: inline;
+  margin-left: 25px;
+}
+#sino{
+  float: right;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+
+h6{
+  color: white;
+  margin-left: 10px;
+  font-size: larger;
+  display: inline;
+}
+
+/* Corpo do site */
+form{
+  height: 0%;
+}
+
+#pes {
+  margin-top: 15px;
+}
+
+#input-box {
+  width: 43vw; /* view width */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+#search-input {
+  height: 48px;
+  border-radius: 24px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 0 50px;
+  border: 1px solid #DFDFDF;
+  box-shadow: 0px 0px 5px #DDD;
+  background-color: #505050;
+}
+
+#search-icon, #keyboard-icon, #mic-icon {
+  position: absolute;
+  top: 15px;
+  font-size: 18px;
+  color: white;
+}
+
+#search-icon {
+  left: 20px;
+}
+
+#keyboard-icon {
+  right: 55px;
+}
+
+#mic-icon {
+  right: 20px;
+}
+
+#body input[type="submit"] {
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+  color: #5F6368;
+  height: 34px;
+  padding: 0 16px;
+  font-size: 14px;
+  margin: 15px 5px;
+  cursor: pointer;
+}
+
+#body input[type="submit"]:hover {
+  color: #333;
+  border-color: #333;
+}
+
+/* Footer - rodapé */
+
+footer {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  bottom: 0;
+  height: 42px;
+  width: 100%;
+  background-color: #0f1520;
+  border-top: 1px solid #000000;
+}
+
+#left-bar, #right-bar {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+#right-bar {
+  position: absolute;
+  right: 0;
+}
+h1{
+  color: white;
+  margin-left: 25px;
+}
+#indice{
+  text-align: center;
+  background-color: #504DD4;
+  border-radius: 25px;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 15px;
+}
+
+#salvos, #user {
+  margin-left: 40px;
+}
+
+#car{
+  width: 100px;
+}
+
+#slider{
+  padding-top: 15px;
+}
+
+#cont{
+  padding-top: 80px;
+  padding-left: 15px;
+  width: 100px;
+}
+
+#navBarT1{
+  position: relative;
+  width: 100%;
+  background-color: #000000;
+  height: 75px;
+  z-index: 4;
+  padding: 0;
+  border: none;
+}
+
+#logotelacurso{
+  position: relative;
+  width: 100%;
+  padding: 0;
+  border: none;
+}
+
+#barras{
+  color:#fff;
+  font-size:28px;
+}
+
+#navBarT2{
+  position: relative;
+  background-color: #333;
+  width: 100%;
+  padding: 3px;
+  border-bottom: 25px solid #000000;
+}
+
+#redcenter{
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#TM1{
+  margin-right: 1%;
+  color: #000000;
+}
+
+#volta, #continua{
+  margin-top: 25%;
+  margin-block-end: 25%;
+}
+
+#HQb{
+  color: #000000;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'chicle';
+}
+
+#HQ{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'chicle';
+}
+
+#titulo{
+  color: #FFFFFF;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#sub{
+  color: #FFFFFF;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+#cata{
+  width: 15vw;
+}

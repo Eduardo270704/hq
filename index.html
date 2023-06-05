@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HQ+</title>
+  <link rel="shortcut icon" href="./img/HQ+.png" />
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Chicle:wght@300;400;700&display=swap" rel="stylesheet"/>
+</head>
+<body style="background-color: black;">
+<header>
+  <nav class="navbar bg-body-tertiary p-0">
+    <div class="container-fluid" id="navBarT1">
+      <div class="container" id="logotelacurso">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-start">
+            <a href="" class="navbar-brand">
+              <img src="./img/HQ+.png" class="img-fluid" alt="fatec jacareí" width="80px" height="52px">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="navBarT2">
+      <div class="container" id="redcenter">
+        <div class="row">
+          <div class="col-md-8 d-flex justify-content-center">
+            <div id="body">
+                <form action="">
+                  <div id="input-box">
+                    <input type="text" id="search-input" name="search" placeholder="Buscar...">
+                    <span class="lnr lnr-magnifier" id="search-icon"></span>
+                    <span class="lnr lnr-keyboard" id="keyboard-icon"></span>
+                    <span class="lnr lnr-mic" id="mic-icon"></span>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-end">
+            <button id="TM1" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <i class="fas fa-bars" id="barras"></i>
+              </span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 id=HQb class="offcanvas-title" id="offcanvasNavbarLabel">HQ+</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html" data-bs-toggle="tooltip"
+                      data-bs-placement="left" title="Retorna para a Página Inicial">Início</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Categorias
+                    </a>
+                    <ul class="dropdown-menu" data-bs-toggle="tooltip" data-bs-placement="left"
+                      title="Clique para ir ao conteúdo nos slides">
+                      <li><a class="dropdown-item" href="#">Filmes</a></li>
+                      <li><a class="dropdown-item" href="#">Séries</a></li>
+                      <li><a class="dropdown-item" href="#">HQs</a></li>
+                      <li><a class="dropdown-item" href="#">Animes</a></li>
+                      <li><a class="dropdown-item" href="#">Mangás</a></li>
+                      <li><a class="dropdown-item" href="#">Cartoons</a></li>
+                      <li><a class="dropdown-item" href="#">Documentários e especiais</a></li>
+                      <li><a class="dropdown-item" href="#">Marvel</a></li>
+                      <li><a class="dropdown-item" href="#">DC</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+  <main>
+    <section class="hero">
+      <h1 id="titulo">Bem-vindo ao <span id="HQ">HQ+</span></h1>
+      <p id="sub">Assista a milhares de filmes, séries e documentários</p>
+    </section>
+    <div class="row d-flex justify-content-center">
+    <section class="principal" style="width: 45vw;">
+        <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators" id="indicadores">
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide1"></button>
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1"
+                    aria-label="Slide2"></button>
+                <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2"
+                    aria-label="Slide3"></button>
+            </div>
+            <div class="carousel-inner" id="carousel-items">
+                <div class="carousel-item active">
+                    <a href="filme.html"><img src="./img/Rectangle 5@3x.png" class="d-block w-100" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="filme.html"><img src="./img/Rectangle 5.png" class="d-block w-100" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="filme.html"><img src="./img/Rectangle 5 (4).png" class="d-block w-100" alt="..."></a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel"
+                data-bs-slide="prev" id="volta">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel"
+                data-bs-slide="next" id="continua">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+</div>
+    <section class="movies">
+      <h2>Filmes Populares</h2>
+      <style>
+        .movie-list {
+          text-align: left;
+          padding-left: 10px;
+        }
+      
+        .movie {
+          display: inline-block;
+          margin: 10px;
+          text-align: center;
+        }
+      
+        .movie img {
+          width: 200px;
+          height: auto;
+        }
+      </style>
+      <div class="movie-list">
+        <div class="movie">
+          <a href="filme.html"><img src="./img/joker-2019-movie-joker-joaquin-phoenix-actor-men-hd-wallpaper-preview.jpg" alt="Movie 1" id="cata"></a>
+          <h3>Joker</h3>
+        </div>
+        <div class="movie">
+          <a href="filme.html"><img src="./img/suicide-squad-margot-robbie-dc-comics-harley-quinn-wallpaper-preview.jpg" alt="Movie 2" id="cata"></a>
+          <h3>Suicide Squad</h3>
+        </div>
+        <div class="movie">
+          <a href="filme.html"><img src="./img/star-wars-movies-star-wars-the-last-jedi-poster-wallpaper-preview.jpg" alt="Movie 3" id="cata"></a>
+          <h3>Star Wars The Last Jedi</h3>
+        </div>
+      </div>
+    </section>
+    
+    <section class="HQs">
+      <h2>HQs Populares</h2>
+      <style>
+        .HQs-list {
+          text-align: left;
+          padding-left: 10px;
+        }
+      
+        .HQ {
+          display: inline-block;
+          margin: 10px;
+          text-align: center;
+        }
+      
+        .HQs img {
+          width: 200px;
+          height: auto;
+        }
+      </style>
+      <div class="HQs-list">
+        <div class="HQ">
+          <a href="filme.html"><img src="./img/watch.jpg" alt="HQ 1" id="cata"></a>
+          <h3>Watchman</h3>
+        </div>
+        <div class="HQ">
+          <a href="filme.html"><img src="./img/bat.jpg" alt="HQ 2" id="cata"></a>
+          <h3>Batman Ano Um</h3>
+        </div>
+        <div class="HQ">
+          <a href="filme.html"><img src="./img/super.jpg" alt="HQ 3" id="cata"></a>
+          <h3>All Star Superman</h3>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+</html>
